@@ -1,5 +1,0 @@
-﻿CREATE OR REPLACE VIEW p_bv_categories FOLDER = '/1 - dataconnection/2 - base views' AS SELECT bv_categories.category_id AS category_id, bv_categories.category_name AS category_name, bv_categories.description AS description FROM bv_categories;
-
-ALTER VIEW p_bv_categories
- LAYOUT (bv_categories = [20, 20, 200, 200]);
-
