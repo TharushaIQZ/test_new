@@ -1,0 +1,5 @@
+﻿CREATE OR REPLACE VIEW p_bv_customers FOLDER = '/1 - dataconnection/2 - base views' AS SELECT bv_customers.cust_id AS cust_id, bv_customers.customer_name AS customer_name, bv_customers.address AS address, bv_customers.city AS city, bv_customers.phone AS phone FROM bv_customers;
+
+ALTER VIEW p_bv_customers
+ LAYOUT (bv_customers = [20, 20, 200, 200]);
+
