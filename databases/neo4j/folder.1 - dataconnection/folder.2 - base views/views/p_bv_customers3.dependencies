@@ -1,0 +1,6 @@
+﻿*/databases/neo4j/folder.1 - dataconnection/1 - dataconnection.vql
+1/databases/neo4j/folder.1 - dataconnection/folder.2 - base views/2 - base views.vql
+*/databases/neo4j/folder.1 - dataconnection/folder.2 - base views/2 - base views.vql
+*/databases/neo4j/folder.1 - dataconnection/folder.1 - data sources/1 - data sources.vql
+*/databases/neo4j/folder.1 - dataconnection/folder.1 - data sources/datasources/jdbc/ds_neo4j.vql
+1/databases/neo4j/folder.1 - dataconnection/folder.2 - base views/views/bv_customers.vql
