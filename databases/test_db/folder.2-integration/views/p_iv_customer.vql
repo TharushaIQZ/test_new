@@ -1,0 +1,5 @@
+﻿CREATE OR REPLACE VIEW "p_iv_Customer" FOLDER = '/2-integration' AS SELECT "iv_Customer"."CustomerKey" AS "CustomerKey", "iv_Customer"."GeographyKey" AS "GeographyKey", "iv_Customer"."CustomerLabel" AS "CustomerLabel", "iv_Customer"."Title" AS "Title", "iv_Customer"."FirstName" AS "FirstName" FROM "iv_Customer";
+
+ALTER VIEW "p_iv_Customer"
+ LAYOUT ("iv_Customer" = [20, 20, 200, 200]);
+
